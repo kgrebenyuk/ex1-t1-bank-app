@@ -29,7 +29,7 @@ public class BankApplication {
 
         // Banking banking = initialize(repository);
          Banking banking = initialize(context);
-       // BankingImpl banking =(BankingImpl) context.getBean("bankingImpl");
+       // Banking banking =(Banking) context.getBean("banking");
 
         workWithExistingClients(banking);
 
